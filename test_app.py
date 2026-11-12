@@ -11,4 +11,4 @@ def test_home():
     assert response.status_code == 200
 
     # Strictly compare the complete response
-    assert response.data == b" CI/CD Pipeline!"
+    assert response.data == b"hi CI/CD Pipeline!"
